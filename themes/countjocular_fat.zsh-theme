@@ -145,7 +145,7 @@ $PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT$PR_NO_COLOUR$reset_color '
 
 setprompt
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%F{154}\u2b60 %f%F{124}"
+ZSH_THEME_GIT_PROMPT_PREFIX="\u2b60 %f"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}%B✘%b%F{154}%f%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}✔%F{154}"
