@@ -24,6 +24,7 @@ function precmd {
     else
 	PR_FILLBAR="\${(l.(($TERMWIDTH - ($promptsize + $pwdsize)))..${PR_HBAR}.)}"
     fi
+}
 
 
 setopt extended_glob
